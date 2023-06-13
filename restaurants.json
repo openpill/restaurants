@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Bagels Bar",
+    "branches": [
+      {
+        "address": "84 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8202 6540",
+        "email": "coffeehouse@bagelsbar.com",
+        "instagram": "",
+        "website": "www.bagelsbar.com",
+        "description": "Fresh Bagels, Salads, Sandwiches, Coffee, Pizza, Waffles, Ice Cream and Milkshakes. Take Aways for Kiddushim and Smachot. Functions for up to 30 people in our restaurant."
+      }
+    ]
+  },
+  {
+    "name": "Bagels Bar Grill House",
+    "branches": [
+      {
+        "address": "86 Brent Street",
+        "kind": "Meat",
+        "phone": "020 8202 5575",
+        "email": "grillhouse@bagelsbar.com",
+        "instagram": "@bbgrillhouse",
+        "website": "",
+        "description": "Salt beef, pastrami, subs, salads, burgers, fries, grill and smokehouse. Restaurant and take away. Sandwich platters for events."
+      }
+    ]
+  },
+  {
+    "name": "Balagan",
+    "branches": [
+      {
+        "address": "47 Shenley Road",
+        "kind": "Meat",
+        "phone": "020 7112 9253",
+        "email": "hello@balagans.co.uk",
+        "instagram": "",
+        "website": "www.balagans.co.uk",
+        "description": "Balagan is an Israeli style burger bar combining North American cuisine with the mouth-watering flavours of the Middle East, to create a variety of meat dishes. Offering a different, take away dinner menu for Shabbat and Chaggim. Functions for up to 45 people in our restaurant."
+      }
+    ]
+  },
+  {
+    "name": "Beit Cafe",
+    "branches": [
+      {
+        "address": "119 Golders Green Road",
+        "kind": "Dairy",
+        "phone": "020 8209 3592",
+        "email": "",
+        "instagram": "beit_cafe",
+        "website": "",
+        "description": "Israeli cafe, offering a variety of breakfasts, shakshukas, sandwiches, salads, soups, pastas and more. Top quality coffee and desserts all day long. Everything cooked freshly every day with love."
+      }
+    ]
+  },
+  {
+    "name": "Bread",
+    "branches": [
+      {
+        "address": "1 Bridge Lane",
+        "kind": "Dairy",
+        "phone": "020 8455 9340",
+        "email": "",
+        "instagram": "",
+        "website": "www.hendonbagelbakery.co.uk",
+        "description": "Sit down, self-service coffee shop and café side by side with our bakery offering freshly baked breads and delights."
+      }
+    ]
+  },
+  {
+    "name": "Burger Bar",
+    "branches": [
+      {
+        "address": "1 Bridge Lane",
+        "kind": "Meat",
+        "phone": "020 8455 8080",
+        "email": "",
+        "instagram": "",
+        "website": "www.burgerbar.uk.com",
+        "description": "Specialist burgers with a selection of delicious sides. Also offering tasty wraps, a range of scrumptious salads and a kiddies' menu."
+      }
+    ]
+  },
+  {
+    "name": "Eli's Pizza",
+    "branches": [
+      {
+        "address": "116 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8202 1805",
+        "email": "info@elispizza.com",
+        "instagram": "",
+        "website": "www.elispizza.com",
+        "description": "Family-run Italian restaurant offering a range of pizzas, pastas, salads and more. Takeaway and delivery available."
+      }
+    ]
+  },
+  {
+    "name": "Hummus Bar",
+    "branches": [
+      {
+        "address": "58b Brent Street",
+        "kind": "Meat",
+        "phone": "020 8202 7797",
+        "email": "info@hummusbar.co.uk",
+        "instagram": "",
+        "website": "www.hummusbar.co.uk",
+        "description": "Hummus Bar is a kosher Mediterranean grill, hummus, falafel and schnitzel bar."
+      }
+    ]
+  },
+  {
+    "name": "Kaifeng",
+    "branches": [
+      {
+        "address": "51 Church Road",
+        "kind": "Meat",
+        "phone": "020 8458 4555",
+        "email": "",
+        "instagram": "",
+        "website": "www.kaifeng.co.uk",
+        "description": "Glatt kosher Chinese restaurant, offering a wide variety of meat, poultry, fish, and vegetarian dishes."
+      }
+    ]
+  },
+  {
+    "name": "La Fiesta",
+    "branches": [
+      {
+        "address": "60b Brent Street",
+        "kind": "Meat",
+        "phone": "020 8202 0903",
+        "email": "",
+        "instagram": "",
+        "website": "www.lafiestauk.com",
+        "description": "La Fiesta is a Mexican grill, serving burritos, quesadillas, tacos, enchiladas, fajitas, and more."
+      }
+    ]
+  },
+  {
+    "name": "Mr Baker",
+    "branches": [
+      {
+        "address": "78 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8202 7799",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Mr Baker is a kosher bakery and patisserie, offering a variety of breads, cakes, pastries, and sandwiches."
+      }
+    ]
+  },
+  {
+    "name": "Novellino",
+    "branches": [
+      {
+        "address": "111-113 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8203 2024",
+        "email": "info@novellinorestaurants.com",
+        "instagram": "@novellinolondon",
+        "website": "www.novellinorestaurants.com",
+        "description": "Italian kosher dairy restaurant, serving pizza, pasta, fish, sushi, and more. Takeaway and delivery available."
+      }
+    ]
+  },
+  {
+    "name": "Novellino Bistro",
+    "branches": [
+      {
+        "address": "84 Golders Green Road",
+        "kind": "Meat",
+        "phone": "020 8201 8585",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Novellino Bistro is an Italian kosher meat restaurant, offering a range of grilled meats, steaks, pastas, and more."
+      }
+    ]
+  },
+  {
+    "name": "Novellino Brighton",
+    "branches": [
+      {
+        "address": "87 Golders Green Road",
+        "kind": "Meat",
+        "phone": "020 8209 0041",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Novellino Brighton is an Italian kosher meat restaurant, offering a range of grilled meats, steaks, pastas, and more."
+      }
+    ]
+  },
+  {
+    "name": "Portoberry",
+    "branches": [
+      {
+        "address": "105-107 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8202 6933",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Portoberry is a kosher dairy and fish restaurant, serving a variety of dishes including fish, salads, pasta, and more."
+      }
+    ]
+  },
+  {
+    "name": "Pumpernick's",
+    "branches": [
+      {
+        "address": "44-46 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8202 3999",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Pumpernick's is a kosher bakery and cafe, offering a range of baked goods, sandwiches, salads, and more."
+      }
+    ]
+  },
+  {
+    "name": "Sababa",
+    "branches": [
+      {
+        "address": "109 Golders Green Road",
+        "kind": "Dairy",
+        "phone": "020 8455 3232",
+        "email": "info@sababarestaurant.co.uk",
+        "instagram": "@sababarestaurantlondon",
+        "website": "www.sababarestaurant.co.uk",
+        "description": "Sababa is a Mediterranean and Middle Eastern kosher restaurant, offering a variety of dairy and fish dishes, as well as shawarma, falafel, and more."
+      }
+    ]
+  },
+  {
+    "name": "Sami’s",
+    "branches": [
+      {
+        "address": "47a Brent Street",
+        "kind": "Meat",
+        "phone": "020 8202 8513",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Sami’s is a kosher grill and deli, offering a range of meat dishes, sandwiches, and more."
+      }
+    ]
+  },
+  {
+    "name": "Slice",
+    "branches": [
+      {
+        "address": "78 Golders Green Road",
+        "kind": "Dairy",
+        "phone": "020 8455 4143",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Slice is a kosher dairy and fish restaurant, serving a variety of pizzas, pastas, fish dishes, and more."
+      }
+    ]
+  },
+  {
+    "name": "Sushi Haven",
+    "branches": [
+      {
+        "address": "34 Golders Green Road",
+        "kind": "Meat/Parev",
+        "phone": "020 8455 8833",
+        "email": "",
+        "instagram": "",
+        "website": "www.sushihaven.co.uk",
+        "description": "Sushi Haven is a kosher sushi restaurant, offering a range of sushi, sashimi, and other Japanese dishes."
+      }
+    ]
+  },
+  {
+    "name": "Taboon",
+    "branches": [
+      {
+        "address": "1015 Finchley Road",
+        "kind": "Dairy",
+        "phone": "020 8458 8989",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Taboon is a kosher dairy and fish restaurant, serving a variety of Middle Eastern and Mediterranean dishes."
+      }
+    ]
+  },
+  {
+    "name": "Tasti Pizza",
+    "branches": [
+      {
+        "address": "15-17 Golders Green Road",
+        "kind": "Dairy",
+        "phone": "020 8209 1144",
+        "email": "info@tastipizza.co.uk",
+        "instagram": "",
+        "website": "www.tastipizza.co.uk",
+        "description": "Tasti Pizza is a kosher pizza and pasta restaurant, offering a variety of vegetarian and vegan options."
+      }
+    ]
+  },
+  {
+    "name": "Tish",
+    "branches": [
+      {
+        "address": "41 High Road",
+        "kind": "Meat",
+        "phone": "020 3150 0093",
+        "email": "hello@tish.london",
+        "instagram": "@tish_london",
+        "website": "www.tish.london",
+        "description": "Tish is a contemporary Jewish restaurant, offering a range of meat dishes with a modern twist."
+      }
+    ]
+  },
+  {
+    "name": "Tony Page at the Island Grill",
+    "branches": [
+      {
+        "address": "80 High Road",
+        "kind": "Meat",
+        "phone": "020 8457 6565",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "Tony Page at the Island Grill is a kosher grill restaurant, serving a variety of meat dishes and grill specialties."
+      }
+    ]
+  },
+  {
+    "name": "Tuk Tuk",
+    "branches": [
+      {
+        "address": "24 Golders Green Road",
+        "kind": "Meat",
+        "phone": "020 8458 8989",
+        "email": "info@tuktuk-restaurant.co.uk",
+        "instagram": "@tuktuk_restaurant",
+        "website": "www.tuktuk-restaurant.co.uk",
+        "description": "Tuk Tuk is an Asian fusion kosher restaurant, offering a range of meat dishes with flavors from China, Thailand, and India."
+      }
+    ]
+  },
+  {
+    "name": "White Fish",
+    "branches": [
+      {
+        "address": "102 Brent Street",
+        "kind": "Dairy",
+        "phone": "020 8209 3555",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "White Fish is a kosher fish and grill restaurant, offering a variety of fish dishes, salads, and more."
+      }
+    ]
+  },
+  {
+    "name": "White House Express",
+    "branches": [
+      {
+        "address": "111-113 Golders Green Road",
+        "kind": "Meat",
+        "phone": "020 8458 4555",
+        "email": "",
+        "instagram": "",
+        "website": "",
+        "description": "White House Express is a kosher grill and deli, serving a variety of meat dishes, sandwiches, and more."
+      }
+    ]
+  }
+]

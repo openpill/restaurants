@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Map</title>
+  <style>
+    #map {
+      height: 600px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Restaurant Map</h1>
+  <input id="search" type="text" placeholder="Enter a Google Street Address">
+  <div id="map"></div>
+
+  <script>
+    // Initialize and create the map
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 51.576726, lng: -0.198721 },
+        zoom: 12,
+      });
+
+      // Create a geocoder object to perform address search
+      const geocoder = new google.maps.Geocoder();
+
+      // Add a search bar event listener
+      const searchInput = document.getElementById('search');
+      const searchButton = document.createElement('button');
+      searchButton.innerHTML = 'Search';
+      searchButton.onclick = () => {
+        const address = searchInput.value;
+        geocoder.geocode({ address: address }, (results, status) => {
+          if (status === 'OK' && results[0]) {
+            map.setCenter(results[0].geometry.location);
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+      };
+      searchInput.parentNode.insertBefore(searchButton, searchInput.nextSibling);
+
+      // Load the JSON data
+      fetch('restaurants.json')
+        .then(response => response.json())
+        .then(data => {
+          const infoWindows = []; // Array to store info windows
+          let infoWindowOpen = false; // Track if any info window is open
+
+          data.forEach(restaurant => {
+            restaurant.branches.forEach(branch => {
+              // Geocode the branch address to get its coordinates
+              geocoder.geocode({ address: branch.address }, (results, status) => {
+                if (status === 'OK' && results[0]) {
+                  const marker = new google.maps.Marker({
+                    position: results[0].geometry.location,
+                    map: map,
+                    icon: {
+                      url: 'Red-Cross-PNG-Photo.png',
+                      scaledSize: new google.maps.Size(32, 32),
+                    },
+                  });
+
+                  // Create the info window content
+                  const infoContent = `
+                    <h2>${restaurant.name}</h2>
+                    <p>Branch Address: ${branch.address}</p>
+                    <p>Restaurant Type: ${branch.kind}</p>
+                    <p>Phone: ${branch.phone}</p>
+                    <p>Website: ${branch.website}</p>
+                  `;
+
+                  // Create the info window
+                  const infoWindow = new google.maps.InfoWindow({
+                    content: infoContent,
+                    maxWidth: 300,
+                  });
+
+                  // Add a click event listener to open the info window and keep it open
+                  marker.addListener('click', () => {
+                    closeAllInfoWindows(); // Close all other info windows
+                    infoWindow.open(map, marker);
+                    infoWindowOpen = true;
+                  });
+
+                  // Add a mouseover event listener to show the info window
+                  marker.addListener('mouseover', () => {
+                    if (!infoWindowOpen) {
+                      infoWindow.open(map, marker);
+                    }
+                  });
+
+                  // Add a mouseout event listener to close the info window if not clicked
+                  marker.addListener('mouseout', () => {
+                    if (!infoWindowOpen) {
+                      infoWindow.close();
+                    }
+                  });
+
+                  // Add a closeclick event listener to update the infoWindowOpen status
+                  infoWindow.addListener('closeclick', () => {
+                    infoWindowOpen = false;
+                  });
+
+                  // Function to close all info windows
+                  function closeAllInfoWindows() {
+                    infoWindows.forEach(infoWindow => {
+                      infoWindow.close();
+                    });
+                  }
+
+                  infoWindows.push(infoWindow); // Add the info window to the array
+                } else {
+                  console.log('Geocode was not successful for the following reason: ' + status);
+                }
+              });
+            });
+          });
+        });
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyJ2l78Is0iL7DenUpVWyC6sGmirNHU8Q&callback=initMap" async defer></script>
+</body>
+</html>
